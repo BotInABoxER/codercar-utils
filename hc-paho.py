@@ -15,6 +15,8 @@ import time
 # Install Eclipse Paho for Python: python3 -m pip install --user paho-mqtt
 # Install RPi.GPIO: python3 -m pip install --user RPi.GPIO
 
+# Run the script: python3 hc-paho.py
+
 try:
     GPIO.setmode(GPIO.BOARD)
     PIN_TRIGGER = 7
